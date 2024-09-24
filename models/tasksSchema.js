@@ -8,11 +8,11 @@ const TaskModel = mongoose.Schema({
     description: {
         type: String,
         required: true,
-        default:'pending'
     },
     status: {
         type: String,
-        required: true
+        required: true,
+        default:'pending'
     },
     dueDate: {
         type: Date,
